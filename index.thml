@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SkUlL$LoVe - YouTube Channel</title>
+  <style>
+    /* CSS styles for the website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+  
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+    }
+  
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+  
+    #hero {
+      background-color: #f1f1f1;
+      padding: 40px;
+      text-align: center;
+      animation: pulse 1s ease-in-out infinite alternate;
+    }
+  
+    #videos {
+      padding: 40px;
+    }
+  
+    .video {
+      margin-bottom: 20px;
+      border: 2px solid #333;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  
+    footer {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+  
+    /* Responsive Styles */
+    @media screen and (max-width: 768px) {
+      #hero {
+        padding: 20px;
+      }
+  
+      #videos {
+        padding: 20px;
+      }
+  
+      .video {
+        margin-bottom: 10px;
+      }
+    }
+
+    /* Keyframe animation */
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.05);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1 style="color: #ff6600;">Welcome to SkUlL$LoVe YouTube Channel</h1>
+    <p style="color: #333;">Check out our latest edited videos!</p>
+  </section>
+
+  <section id="videos">
+    <h2 style="color: #ff6600;">Latest Videos</h2>
+    <div class="video">
+      <video width="100%" controls>
+        <source src="path/to/your/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <!-- Add more videos as needed -->
+  </section>
+
+  <section id="subscribe">
+    <h2 style="color: #ff6600;">Subscribe to Our Channel</h2>
+    <p style="color: #333;">Stay updated with our latest videos and notifications.</p>
+    <form action="https://www.youtube.com/@SkUlLAndLoV" target="_blank">
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer style="background-color: #ff6600;">
+    <p style="color: #fff;">&copy; 2023 SkUlL$LoVe YouTube Channel. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // JavaScript code for additional functionality
+    // You can add your custom JavaScript code here
+  </script>
+</body>
+</html>

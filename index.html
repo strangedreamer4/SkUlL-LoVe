@@ -71,6 +71,21 @@
         margin-bottom: 10px;
       }
     }
+    
+    /* Adjustments for laptops */
+    @media screen and (min-width: 1024px) {
+      #hero {
+        padding: 80px;
+      }
+  
+      #videos {
+        padding: 80px;
+      }
+  
+      .video {
+        margin-bottom: 40px;
+      }
+    }
 
     /* Keyframe animation */
     @keyframes pulse {
@@ -104,7 +119,7 @@
     <h2 style="color: #ff6600;">Latest Videos</h2>
     <div class="video">
       <video width="100%" controls>
-        <source src="InShot_20230623_210651806.mp4"type="video/mp4">
+        <source src="path/to/your/video.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
